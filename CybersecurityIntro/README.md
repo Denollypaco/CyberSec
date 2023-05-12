@@ -1,0 +1,2 @@
+This repository comprises of introduction to cybersecurity in a layman language, with concept to attacks and techniques to mitigate it. It also explains how we can protect our personal data and privacy and also how we can protect the data and privacy of the organization where we belong. We took a broader view of the future that can be attained in the cybersecurity field and finally concept to Cisco packet tracer.
+NB: This repository is subject to update and adjustment, feel free to share your knowledge, there is room for upgrade. 

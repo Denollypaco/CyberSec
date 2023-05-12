@@ -1,0 +1,85 @@
+Firewall is designed to control or filter what goes in and out of a device or network. It can be host-based firewall or network-based firewall.
+Host-based Firewall is a firewall installed on a single computer with the purpose of protecting that computer.
+Network-based Firewall is a stand alone network device that protects an entire network of computers and all of the host devices on that network.
+Types of Firewalls:
+Network layer firewall: Filtering based on source and destination IP addresses.
+Transport layer firewall: Filtering based on source and destination data ports, and filtering based on connection states.
+Application layer firewall: Filtering based on application, program or service.
+Context aware application firewall: Filtering based on the user, device, role, application type, and threat profile.
+Proxy server: Filtering based on web content request like URL, domain, media, etc.
+Reverse Proxy Server: Protect, hide, offload, and distribute access to web servers. It is placed in front of web servers.
+Network Address Translation(NAT) Firewall: Hides or masquerades the private addresses of network hosts.
+Host-based Firewall: Filtering of ports and system service calls on a single computer operating system.
+Port-Scanning: Is a process of probing a computer, server or other network host for open ports. Application running on a device is assigned an identifier called a port number, this port number is used at both end of transmission to ensure the right data is passed.
+Port scanning can be used maliciously to identify the OS and services running on a device and it can also be used harmlessly by a network administrator to verify network security policies on the network.
+The scanning of a port results to the three response below;
+Open or Accepted: The host replied indicating a service is listening on the port.
+Closed, Denied, or Not Listening: The host replied indicating that connections will be denied to the port.
+Filtered, Dropped, or Blocked: There was no reply from the host.
+Security Appliances are most effective when they are part of a system. They can be stand alone devices, like a router or firewall, a card that can be installed into a network device, or a module with its own processor and cached memory, they can be software tools installed to run on a network device.
+Security appliances fall into the below categories;
+Routers- Cisco Integrated Service Router(ISR) have many firewall capabilities aside routing function including traffick filtering, the ability to run an Intrusion Prevention System(IPS), encryption, and VPN capabilities for secure encrypted tunneling.
+Firewalls-Cisco Next Generation Firewalls have all the capabilities of an ISR router, as well as, advanced network management and analytics. Cisco Adaptive Security Appliance (ASA) with firewall capabilities.
+Intrusion Prevention System(IPS): These systems are dedicated to intrusion prevention.
+Virtual Private Network(VPN)- Cisco security appliances are equipped with VPN server and client technologies for secure encrypted tunneling.
+Malware/Antivirus- Advanced Malware Protection(AMP) will be enabled in cisco routers, firewalls, IPS devices, Web and Email security appliances and can also be installed as software in host computers.
+Other Security Devices- This includes; web and email security appliances, decryption devices, client access control servers, and security management systems. 
+Detecting Attacks in Real Time: Softwares are not perfect. A zero-day attack is an exploit carried out by a hacker on the flaw on a software before the creator fixes it. A successful defense is measured in how quickly a network responds to an attack.
+Real Time Scanning from Edge to Endpoint- Detecting attacks require actively scanning for attacks using firewall and Intrusion Detection Systems(IDS)/Intrusion Prevention Systems(IPS) network devices. Next generation malware detection with connection to online global threats centers must also be used. Scanning devices must detect anomalies using context-based analysis and behavior detection.
+DDoS Attacks and Real Time Response- This attack is one of the biggest attack threat requiring real time detection and response. This attack is difficult to defend because it originates from hundreds or thousands of zombie host and it appears as legitimate traffic and its aim is to cripple network availability and internet servers. Its real time detection is crucial.
+Protecting Against Malware: The best way to protect against zero-day attacks as well as an Advanced Persistent Threat(APT) is to use an enterprise level advanced malware detection solution that offers real time malware detection.
+Cisco Advanced Malware Protection(AMP) Threat Grid benefits security functions across the organization:
+Secure Operations Center Team- Get more accurate actionable data.
+Incidence Response Team- Use forensically sound information to understand suspicious behavior faster.
+Threat Intelligence Team- Proactively improve security infrastructure.
+Security Infrastructure Engineering- Consume and act on a threat information faster, and in an automated manner.
+Security Best Practices: Below is a list of some security best practices for national and professional organization;
+Perform Risk Assessment- Knowing the value of what you protect will help in justifying security expenditures.
+Create a Security Policy- Create a policy that clearly outlines company rules, job duties and expectation.
+Physical Security Measures- Restrict access to networking closets, server locations, as well as fire suppression.
+Human Resource Security Measures- Employees should be properly researched with background checks.
+Perform and Test Backups- Perform regular backups and test data recovery from backups.
+Maintain Security Patches and Updates- Regularly update server, client, and network device OS and programs.
+Employ Access Controls- Configure user roles and privilege levels as well as strong user authentication.
+Regularly Test Incident Response- Employ an incident response team and test emergency response scenarios.
+Implement a Network Monitoring, Analytics and Management Tool- Choose a security monitoring solution that integrates with other technologies.
+Implement Network Security Devices- Use next generation routers, firewalls, and other security appliances.
+Implement a Comprehensive Endpoint Security Solution- Use enterprise level anti-malware and antivirus software.
+Educate Users- Educate users and employees in secure procedures.
+Encrypt Data- Encrypt all sensitive company data including email.
+Botnet is a group of Bot connected to the internet with the ability to be controlled by a malicious group or individual. A bot computer is infected by visiting a malicious website, opening a malicious email attachment or opening an infected media file. Botnets are controlled by a command and control server and can be activated to distribute malware, launch DDoS attack, distribute spam email or execute brute force password attack.
+The Kill Chain in Cyber-Defense: The kill chain is the stages of an information systems attack. This was developed by Lockheed Martin as a security framework for incident detection and response. It comprises of the following stages;
+Stage1. Reconnaissance- The attacker gathers information about the target.
+Stage 2. Weaponization- The attacker creates an exploit and malicious payload to send to the target.
+Stage 3. Delivery- The attacker sends the malicious payload and exploit to the target through email or other method.
+Stage 4. Exploitation- The exploit is executed.
+Stage 5. Installation- Malware and back-doors are installed on the target.
+Stage 6. Command and Control- Remote control of the target is gained through a command and control channel or server.
+Stage 7. Action- The attacker performs malicious actions like information theft, or executes additional attacks on other devices from within the network by working through the kill chain stages again
+Behavior-based security  is a form of threat detection that does not rely on known malicious signatures, but instead uses informational context to detect anomalies in the network. This involves capturing and analyzing the flow of communication between a user on the local network and a local, or remote destination.
+Honeypots-  A Honeypot is a behavior-based detection tool that first lures the attacker in by appealing to the attacker’s predicted pattern of malicious behavior, and then, when inside the honeypot, the network administrator can capture, log, and analyze the attacker’s behavior. This allows an administrator to gain more knowledge and build a better defense.
+Cisco's Cyber Threat Defense Solution Architecture-  This is a security architecture that uses behavior-based detection and indicators, to provide greater visibility, context, and control. The goal is to know who, what, where, when, and how an attack is taking place. This security architecture uses many security technologies to achieve this goal.
+The Evolution of Cyber Threats-
+Viruses(1990s)e.g;ILOVEYOU,Melissa,Anna Kournikova-Defense; Antivirus, Firewalls.
+Worms(2000s)e.g; Nimda, SQL slammer, Conficker- Defense: Intrusion Detection and prevention 
+Botnets(late 2000s to current)e.g; Tedroo, Rustock, Conficker- Defense: Reputation, DLP, App.-ware Firewalls.
+Direct attacks APTs(today)e.g; Aurora, Shady Rat, Duqu- Strategy: Visibility and Context.
+NetFlow Technology is used to gather information about data flowing through a network. It can inspect packet like; source Ip address, destination IP address, source port, destination port, layer 3 protocol, TOS byte(DSCP), input interface.
+Computer Security Incident Response Team (CSIRT): The primary mission of CSIRT is to help ensure company, system, and data preservation by performing comprehensive investigations into computer security incidents. To prevent security incidents, Cisco CSIRT provides proactive threat assessment, mitigation planning, incident trend analysis, and security architecture review.
+Security Playbook: A security playbook is a record of repeated queries(reports) against security event data sources that lead to incident detection and response.
+The security playbook must accomplish the following actions:
+Detect malware infected machines.
+Detect suspicious network activity.
+Detect irregular authentication attempts.
+Describe and understand inbound and outbound traffic.
+Provide summary information including trends, statistics, and counts.
+Provide usable and quick access to statistics and metrics.
+Correlate events across all relevant data sources.
+Tools for Incident Detection and Prevention;
+Security Information and Event Management(SIEM)system is a software that collects and analyzes security alerts, logs and other real time and historical data from security devices on the network.
+Data Loss Prevention(DLP)system is a software or hardware system designed to stop sensitive data from being stolen from or escaping a network. DLP systems are designed to monitor and protect data in three different states; Data in-use, Data in-motion and Data at-rest. 
+Data in-use is focused on the client, Data in-motion refers to data as it travels through the network, and Data at-rest refers to data storage.
+Cisco Identity Services Engine(Cisco ISE) and Cisco TrustSec enforces access to network resources by creating role-based access control policies that segment access to the network(guests, mobile users, employees) without added complexity.
+Intrusion Detection System(IDS): is either a dedicated network device, or one of several tools in a server or firewall that scans data against a database of rules or attack signatures, looking for malicious traffic. If a match is detected, the IDS will log the detection, and create an alert for a network administrator. The Intrusion Detection System does not take action when a match is detected so it does not prevent attacks from happening. The job of the IDS is merely to detect, log and report. The scanning performed by the IDS slows down the network known as Latency. To prevent against network delay, an IDS is usually placed offline, separate from regular network traffic.
+Intrusion Prevention System(IPS) has the ability to block or deny traffic based on a positive rule or signature match.
+One of the most well-known IPS/IDS system is Snort and its commercial version is Cisco's Sourcefire. It has the ability to perform real-time traffic and port analysis, logging, content searching and matching, and can detect probes, attacks, and port scans. It also integrates with other third party tools for reporting, performance and log analysis.

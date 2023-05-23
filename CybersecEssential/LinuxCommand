@@ -1,0 +1,8 @@
+Escalate privileges to Root - sudo su
+Add a new group - groupadd (name)
+verify new group - cat /etc/group
+Add a new user - adduser (name), add password when prompted and fill other fields if necessary
+Add a user to group - usermod -G (groupname) (username)
+verify new users in the password file - cat /etc/passwd
+view created users in shadow file - cat /etc/shadow
+

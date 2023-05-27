@@ -5,4 +5,7 @@ Add a new user - adduser (name), add password when prompted and fill other field
 Add a user to group - usermod -G (groupname) (username)
 verify new users in the password file - cat /etc/passwd
 view created users in shadow file - cat /etc/shadow
-
+To identify open port - nmap localhost
+To use administrative privileges with Nmap - sudo nmap –sU localhost
+To perform a version detection to research vulnerability - nmap –sV localhost
+To initiate a script scan and capture SSH keys - nmap –A localhost

@@ -14,3 +14,8 @@ To open a steghide image file - gimp <imagefilename> &
 To embed a document in steghide - steghide embed -cf <carrierfilename> -ef <embed document>
 To verify hidden steghide file - steghide info <carrierfilename>
 To extract the hidden steghide file - steghide extract -sf <carrierfilename>
+To create a new user - sudo useradd -m <username>
+To add password to the user - sudo passwd <username> and follow the prompt
+To add user to the sudo group - sudo usermod -a -G sudo username
+To change the default shell of the added user from default shell to bash - sudo chsh -s /bin/bash username
+Switching users using the su command - su username

@@ -19,3 +19,6 @@ To add password to the user - sudo passwd <username> and follow the prompt
 To add user to the sudo group - sudo usermod -a -G sudo username
 To change the default shell of the added user from default shell to bash - sudo chsh -s /bin/bash username
 Switching users using the su command - su username
+To trace the pathway to an external web server on the internet - tracert <ip address>
+To observe network failover in command prompt we ping using - ping -t <ip address>
+To remotely connect to router - ssh -l admin <default gateway> 

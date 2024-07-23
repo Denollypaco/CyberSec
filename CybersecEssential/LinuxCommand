@@ -22,4 +22,3 @@ Switching users using the su command - su username
 To trace the pathway to an external web server on the internet - tracert <ip address>
 To observe network failover in command prompt we ping using - ping -t <ip address>
 To remotely connect to router - ssh -l admin <default gateway> 
-To make list ls

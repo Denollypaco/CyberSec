@@ -1,0 +1,3 @@
+Git is a distributed version control system. Basically it records changes to our file. We can recall changes made in our project and we can collaborate with others on a project.
+It helps to store revisions in a project history in just one directory. Work on new features without messing up the main codebase.
+Github is an online service that hosts our projects, share our code with other developers, allow developers download projects and work on them. And they can re upload their edit and merge them.

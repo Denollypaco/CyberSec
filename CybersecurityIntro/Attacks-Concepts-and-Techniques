@@ -15,6 +15,7 @@ Malware is any code that can be used to steal data, bypass access controls, or c
 Types of Malware:
 Spyware: This a malware designed to spy on the user. They include; activity trackers, keystroke collection, and data capture. They attack by modifying security settings. They operate by bundling itself with legitimate software or with trojan horses.
 Adware: They are advertisement supported software designed to automatically deliver advertisement. It is often installed with some versions of software and it is common for it to come with spyware.
+Backdoor: This type of malware is used to gain unauthorized access by bypassing the normal authentication procedures to access a system. As a result, hackers can gain remote access to resources within an application and issue remote system commands. A backdoor works in the background and is difficult to detect.
 Bot: It is a malware designed to automatically perform action usually online, most of them are harmless but one malicious one is the botnets. When computers are infected with bots, they quietly wait for commands provided by the attacker.
 Ransomware: This malware is designed to hold a computer system or the data it contains captive until a payment is made. Some other versions of ransomware is to take advantage of system vulnerability to lock down the system. It is usually done by encrypting data in the computer with a key unknown to the user and it is spread by a downloaded file or software vulnerability.
 Scareware: This is a malware designed to persuade a user to take specific action out of fear. Scareware forges pop-up windows that resemble operating system dialogue windows. These windows convey forged messages stating the system is at risk or needs the execution of a specific program to return to normal operation. In reality, no problems were assessed or detected and if the user agrees and clears the mentioned program to execute, his or her system will be infected with malware.
@@ -22,7 +23,7 @@ Rootkit: This malware is designed to modify the operating system to create a bac
 Virus: A virus is a malicious executable code attached to other executable files. Most virus require end user activation and can activate at a specific time or date. They can mutate to avoid detection and most of them are spread by USB drives, optical disks, network shares or email.
 Trojan horse: A trojan horse is a malware that carries out a malicious operation under the guise of a desired operation. They are found in image files, audio files or games. It binds itself to non-executable files.
 Worms: They are malicious codes that replicate themselves by independently exploiting vulnerabilities in networks. Unlike virus, worm can run by themselves, they no longer require user participation. They share similar pattern and have an enabling vulnerability and they all contain a payload.
-Man in the Middle (MITM): This allows attackers to take control over a device without the users knowledge, it intercepts and capture user information before relaying it to its intended destination. They are mostly used to steal financial information and many malware and technique exist to provide attackers with MITM capabilities.
+Man in the Middle (MITM)(On-Path Attacks): This allows attackers to take control over a device without the users knowledge, it intercepts and capture user information before relaying it to its intended destination. They are mostly used to steal financial information and many malware and technique exist to provide attackers with MITM capabilities.
 Man in the mobile (MITMO): A variation of man in the middle, its an attack used to take control over a mobile device, when infected, the mobile device is instructed to exfiltrate user-sensitive information and send it to the attackers. An example of exploit is Zeus, it allows attackers to capture the two step verification SMS messages sent to user.
 Symptoms of Malware:
 Increase in CPU usage
@@ -36,6 +37,7 @@ There is a presence of unknown files, programs or desktop icons.
 There are unknown processes running
 Programs are turning off or reconfiguring themselves
 Emails is being sent without the users knowledge or consent.
+Methods of Infiltration:
 Social Engineering: Its an access attack that attempts to manipulate individuals into performing actions or divulging confidential information. Social engineers often rely on people's willingness to be helpful but also prey on people's weaknesses.
 Types of social Engineering attacks:
 Pretexting: This when an attacker calls an individual and lies to them in an attempt to gain access to privileged data.
@@ -45,6 +47,11 @@ Wi-Fi Password Cracking: It is a process of discovering the password of a wirele
 Techniques to Wifi password cracking;
 Social engineering: A process where an attacker manipulates a person who knows the password to provide it.
 Brute-force Attack: It is a situation where an attacker tries several possible password in an attempt to guess the password. This attack usually involves a word-list file, its a text file containing a list of words taken from the dictionary and a program is used to try possible combination. Some few brute-force tools include; Ophcrack,LOphtCrack, THC Hydra, RAinbowCrack and Medusa.
+Other forms of common password security attacks includes;
+Password Spraying: This is an attempt to gain access to a system by spraying a few commonly used password across a large number of accounts. This technique allows perpetrators to remain undetected as they avoid frequent account lockouts.
+Dictionary Attacks: A hacker tries every word in a dictionary or a list of commonly used words as a password in an attempt to break into a password-protected account.
+Rainbow Attacks: A rainbow table is a large dictionary of precomputed hashes and the password from which they are calculated. A rainbow compares the hash of a password with those stored in the rainbow table.
+Traffic Interception: Plain text or unencrypted passwords can be easily read by other humans and machines by intercepting communications.
 Network sniffing: By listening and capturing packet sent on the network, an attacker might discover a password if it is sent unencrypted and even if it is encrypted it can be cracked using a password cracking tool.
 Phishing: Its a situation where a malicious group sends a fraudulent email in disguise to be from a legitimate and trusted source. The link attached to the email sends the user to a fake site asking for their personal information or it may install a virus.
 Spear Phishing is a kind of phishing that is targeted to a particular victim, and is mostly done when a research has been done on the persons interest.
